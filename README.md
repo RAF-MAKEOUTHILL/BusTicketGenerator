@@ -52,6 +52,8 @@ Print the ticket, displaying the boarding station, destination, distance, and th
 
 
                                                                       CODE
+                                                                      
+                                                                      
 #include <iostream>
 using namespace std;
 

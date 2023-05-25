@@ -57,6 +57,8 @@ Print the ticket, displaying the boarding station, destination, distance, and th
 #include <iostream>
 using namespace std;
 int main() {
+  
+    // Prompt for boarding station
     string boardingStation, destination;
     double distance, farePerKm, totalFare;
     cout << "Enter the boarding station: ";

@@ -59,8 +59,6 @@ using namespace std;
 int main() {
     string boardingStation, destination;
     double distance, farePerKm, totalFare;
-
-    // Prompt for boarding station
     cout << "Enter the boarding station: ";
     getline(cin, boardingStation);
 

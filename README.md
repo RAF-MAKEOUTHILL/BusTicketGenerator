@@ -51,12 +51,11 @@ Calculate the total fare by multiplying the distance by the fare per kilometer.
 Print the ticket, displaying the boarding station, destination, distance, and the calculated fare.
 
 
-                                                                      CODE
+                                                        CODE
                                                                       
                                                                       
 #include <iostream>
 using namespace std;
-
 int main() {
     string boardingStation, destination;
     double distance, farePerKm, totalFare;

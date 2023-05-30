@@ -88,7 +88,7 @@ int main() {
 
     return 0;
 }
-```cpp
+```js
   
                                                                           OUTPUT
   Enter the boarding station: ABC Bus Stop

@@ -53,7 +53,7 @@ Print the ticket, displaying the boarding station, destination, distance, and th
 
                                                         CODE
                                                                       
-'''                                                                      
+```                                                                      
 #include <iostream>
 using namespace std;
 int main() {
@@ -88,7 +88,7 @@ int main() {
 
     return 0;
 }
-'''
+```cpp
   
                                                                           OUTPUT
   Enter the boarding station: ABC Bus Stop

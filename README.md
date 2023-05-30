@@ -13,7 +13,7 @@ Ask the user to enter the fare per kilometer.
 Calculate the total fare by multiplying the distance by the fare per kilometer.
 Display the boarding station, destination, distance, and the calculated fare on the ticket.
 
-                                      Project: Bus Ticket Generator
+                                         Project: Bus Ticket Generator
 
 Description:
 This project aims to develop a bus ticket generator program in C/C++ that calculates the fare based on the distance between the boarding station and destination. The program will take user input for the boarding station and destination, calculate the distance using a suitable algorithm or API, determine the fare per kilometer, and generate a ticket with the relevant details.
@@ -53,7 +53,8 @@ Print the ticket, displaying the boarding station, destination, distance, and th
 
                                                         CODE
                                                                       
-```                                                                      
+``` 
+````
 #include <iostream>
 using namespace std;
 int main() {
@@ -88,10 +89,11 @@ int main() {
 
     return 0;
 }
-```js
+```
+````
   
                                                                           OUTPUT
-  Enter the boarding station: ABC Bus Stop
+Enter the boarding station: ABC Bus Stop
 Enter the destination: XYZ Bus Stop
 Enter the fare per kilometer: 2.5
 ----- Ticket -----

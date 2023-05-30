@@ -16,6 +16,7 @@ Display the boarding station, destination, distance, and the calculated fare on 
                                          Project: Bus Ticket Generator
 
 Description:
+
 This project aims to develop a bus ticket generator program in C/C++ that calculates the fare based on the distance between the boarding station and destination. The program will take user input for the boarding station and destination, calculate the distance using a suitable algorithm or API, determine the fare per kilometer, and generate a ticket with the relevant details.
 
 Inputs:

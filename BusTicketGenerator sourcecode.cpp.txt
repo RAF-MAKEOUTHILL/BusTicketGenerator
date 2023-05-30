@@ -1,0 +1,34 @@
+#include <iostream>
+using namespace std;
+int main() {
+  
+    // Prompt for boarding station
+    string boardingStation, destination;
+    double distance, farePerKm, totalFare;
+    cout << "Enter the boarding station: ";
+    getline(cin, boardingStation);
+
+    // Prompt for destination
+    cout << "Enter the destination: ";
+    getline(cin, destination);
+
+    // Calculate distance (example calculation)
+    // Replace this with your own algorithm or API
+    distance = 50.5; 
+
+    // Prompt for fare per kilometer
+    cout << "Enter the fare per kilometer: ";
+    cin >> farePerKm;
+
+    // Calculate total fare
+    totalFare = distance * farePerKm;
+
+    // Print the ticket
+    cout << "----- Ticket -----" << endl;
+    cout << "Boarding Station: " << boardingStation << endl;
+    cout << "Destination: " << destination << endl;
+    cout << "Distance: " << distance << " km" << endl;
+    cout << "Total Fare: " << totalFare << " $" << endl;
+
+    return 0;
+}
